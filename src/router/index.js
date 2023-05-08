@@ -17,7 +17,11 @@ const routes = [
       {
         path: '/dashboard',
         component: () => import('../views/dashboard/Dashboard.vue')
-      }
+      },
+      {
+        path: '/master',
+        component: () => import('../views/dashboard/Master.vue')
+      },
     ]
   },
 ]
